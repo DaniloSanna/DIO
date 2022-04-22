@@ -12,4 +12,10 @@ body{
 
 .padding{
     padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+.parceiros{
+    background-color: #58FAF4;
+    color: white;
 }
