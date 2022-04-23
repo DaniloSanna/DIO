@@ -1,11 +1,63 @@
-.flex {
+/* 0-display-flex.html */
+.flex0 {
     max-width: 300px;
     padding: 10px;
     border: 2px solid black;
     display: flex;
 }
 
-.item {
+.item0 {
     background-color: aqua;
     margin: 5px;
+}
+
+/* 1-display-flex.html */
+.flex1-main-container{
+    max-width: 300px;
+}
+.flex1-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.flex1-item {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex1-row {
+    flex-direction: row;
+}
+.flex1-row-reverse {
+    flex-direction: row-reverse;
+}
+.flex1-column {
+    flex-direction: column;
+    float: left;
+}
+.flex1-column-reverse {
+    flex-direction: column-reverse;
+    float: right;
+}
+
+.flex1-row li {
+    color: white;
+    background: blue;
+}
+.flex1-row-reverse li {
+    color: white;
+    background: rgb(72, 72, 243);
+}
+.flex1-column li {
+    color: white;
+    background: rgb(255, 136, 0);
+}
+.flex1-column-reverse li{
+    color: white;
+    background: rgb(255, 188, 111);
 }
