@@ -120,3 +120,97 @@ section{
 .orange {
     background: orangered;
 }
+
+/* 3-display-flex.html */
+
+.flex3-main-container{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1000px;
+    max-width: 700px;
+}
+
+.flex3-main-container h2{
+    z-index: 1;
+}
+
+.flex3-row{
+    margin: 20px;
+}
+.flex3-column{
+    margin: 20px;
+
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+    height: 1050px;}
+.flex3-container-row {
+    display: flex;
+    border: 1px solid;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.flex3-container-column {
+    display: flex;
+    border: 1px solid;
+    margin-bottom: 30px;
+    width: 250px;
+    max-height: 250px;
+}
+
+.flex3-default{
+    flex-flow: row nowrap;
+}
+
+.flex3-row-wrap{
+    flex-flow: row wrap;
+}
+
+.flex3-wrap-reverse{
+    flex-flow: row wrap-reverse;
+}
+
+.flex3-row-reverse-nowrap{
+    flex-flow: row-reverse nowrap;
+}
+
+.flex3-row-reverse-wrap{
+    flex-flow: row-reverse wrap;
+}
+
+.flex3-row-reverse-wrap-reverse{
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.flex3-column-wrap{
+    flex-flow: column wrap;
+}
+
+.flex3-column-reverse{
+    flex-flow: column wrap-reverse;
+}
+
+.flex3-column-reverse-nowrap{
+    flex-flow: column-reverse nowrap;
+}
+
+.flex3-column-reverse-wrap{
+    flex-flow: column-reverse wrap;
+}
+
+.flex3-column-reverse-wrap-reverse{
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.flex3-item {
+    background: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
