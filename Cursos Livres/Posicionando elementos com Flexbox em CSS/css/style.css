@@ -214,3 +214,44 @@ section{
     line-height: 50px;
 }
 
+/* 4-display-flex.html */
+
+.flex4-main-container{
+}
+
+.flex4-main-container h2{
+    margin-bottom: 5px;
+}
+.flex4-container {
+    max-width: 400px;
+    border: 1px solid;
+    margin: 0;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.flex4-item {
+    background: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.flex4-flex-start{
+    justify-content: flex-start;
+}
+
+.flex4-flex-end{
+    justify-content: flex-end;
+}
+
+.flex4-flex-center{
+    justify-content: center;
+}
+
+.flex4-flex-between{
+    justify-content: space-between;
+}
+
+.flex4-flex-around{
+    justify-content: space-around;
+}
