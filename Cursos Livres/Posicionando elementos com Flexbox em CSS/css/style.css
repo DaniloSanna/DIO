@@ -61,3 +61,62 @@
     color: white;
     background: rgb(255, 188, 111);
 }
+
+/* 2-display-flex.html */
+.flex2-main-container{
+    height: 800px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section{
+    margin-bottom: 75px;
+}
+.flex2-container-row {
+    width: 300px;
+    height: 150px;
+    border: 2px solid;
+    max-width: 300px;
+    display: flex;
+}
+
+.flex2-container-column {
+    width: 300px;
+    height: 150px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex2-item {
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 50px;
+}
+
+.flex2-nowrap{
+    flex-wrap: nowrap;
+}
+
+.flex2-wrap{
+    flex-wrap: wrap;
+}
+
+.flex2-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.blue{
+    color: white;
+    background: blue;
+}
+.green {
+    background: lightgreen;
+}
+.orange {
+    background: orangered;
+}
