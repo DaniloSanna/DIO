@@ -385,3 +385,39 @@ section{
 .align6-between{
     align-content: space-between;
 }
+
+/* 7-Flex-Grow.html */
+
+.flex7-main-container{}
+
+.flex7-row{}
+.flex7-column{}
+
+.flex7-container {
+    display: flex;
+    border: 1px solid;
+    max-width: 300px;
+}
+.flex7-item {
+    background: orangered;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.flex7-fg-0{
+    flex-grow: 0;
+}
+
+.flex7-fg-1{
+    flex-grow: 1;
+}
+
+.flex7-fg-2{
+    flex-grow: 2;
+}
+
+.flex7-fg-3{
+    flex-grow: 3;
+}
