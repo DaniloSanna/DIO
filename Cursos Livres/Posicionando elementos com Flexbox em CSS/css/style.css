@@ -271,7 +271,7 @@ section{
     justify-content: flex-start;
 }
 
-/* 5-display-flex.html */
+/* 5-Align-item.html */
 
 .align5-main-container{
     max-width: 850px;
@@ -339,4 +339,49 @@ section{
 .align5-img{
     width: 500px;
     height: auto;
+}
+
+/* 6-Align-item.html */
+
+.align6-main-container{}
+
+.align6-row{}
+.align6-column{}
+
+.align6-container {
+    height: 350px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+.align6-item {
+    background: orangered;
+    padding: 0 5px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+.align6-stretch{
+    align-content: stretch;
+}
+.align6-center{
+    align-content: center;
+}
+
+.align6-start{
+    align-content: flex-start;
+}
+
+.align6-end{
+    align-content: flex-end;
+}
+
+.align6-around{
+    align-content: space-around;
+}
+
+.align6-between{
+    align-content: space-between;
 }
