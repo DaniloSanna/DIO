@@ -520,3 +520,36 @@ section{
 .flex9-flex-fg-1{
     flex-grow: 1;
 }
+
+/*----------------------------------- */
+/* 10-Flex-Flex.html */
+/*----------------------------------- */
+
+.flex10-main-container {}
+.flex10-container {
+    display: flex;
+    border: 1px solid;
+    max-width: 400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.flex10-item {
+    background: brown;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex10-flex-1 {
+    flex: 1;
+    /* Grow = 1, Shrink = 1 e Basis = 0 */
+}
+
+.flex10-flex-2 {
+    flex: 1;
+    /* Grow = 2, Shrink = 1 e Basis = 0 */
+}
+
+.flex10-largura{
+    width: 200px;
+}
