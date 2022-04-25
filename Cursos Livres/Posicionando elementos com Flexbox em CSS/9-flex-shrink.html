@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Shrink</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Flex Shrink (1) and Flex Grow (1)</h2>
+<div class="flex9-container">
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">A</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">B</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">C</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">D</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">E</div>
+</div>
+
+<h2>Flex Shrink (1) and Flex Grow (1)</h2>
+<div class="flex9-container">
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">A</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">BBBBB</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">C</div>
+    <div class="flex9-item flex9-flex-fg-1 flex9-flex-shrink-1">D</div>
+</div>
+
+<h2>Flex Shrink (0), Flex Grow (1) and Flex Basis (100px)</h2>
+<div class="flex9-container">
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-0">A</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-0">BBBB BBBB</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-0">C</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-0">D</div>
+</div>
+
+<h2>Flex Shrink (mix), Flex Grow (1) and Flex Basis (100px)</h2>
+<div class="flex9-container">
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-1">A</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-2">The generated</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-2">C</div>
+    <div class="flex9-item flex9-flex-basis flex9-flex-fg-1 flex9-flex-shrink-3">D</div>
+</div>
+
+</body>
+</html>
