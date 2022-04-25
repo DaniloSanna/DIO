@@ -1,4 +1,5 @@
 /* 0-display-flex.html */
+
 .flex0 {
     max-width: 300px;
     padding: 10px;
@@ -11,7 +12,10 @@
     margin: 5px;
 }
 
+/*----------------------------------- */
 /* 1-display-flex.html */
+/*----------------------------------- */
+
 .flex1-main-container{
     max-width: 300px;
 }
@@ -62,7 +66,10 @@
     background: rgb(255, 188, 111);
 }
 
+/*----------------------------------- */
 /* 2-display-flex.html */
+/*----------------------------------- */
+
 .flex2-main-container{
     height: 800px;
     width: 850px;
@@ -121,7 +128,9 @@ section{
     background: orangered;
 }
 
+/*----------------------------------- */
 /* 3-display-flex.html */
+/*----------------------------------- */
 
 .flex3-main-container{
     display: flex;
@@ -214,8 +223,9 @@ section{
     line-height: 50px;
 }
 
+/*----------------------------------- */
 /* 4-display-flex.html */
-
+/*----------------------------------- */
 .flex4-main-container{
     max-width: 800px;
     height: 1000px;
@@ -271,7 +281,9 @@ section{
     justify-content: flex-start;
 }
 
+/*----------------------------------- */
 /* 5-Align-item.html */
+/*----------------------------------- */
 
 .align5-main-container{
     max-width: 850px;
@@ -341,7 +353,9 @@ section{
     height: auto;
 }
 
+/*----------------------------------- */
 /* 6-Align-item.html */
+/*----------------------------------- */
 
 .align6-main-container{}
 
@@ -386,7 +400,9 @@ section{
     align-content: space-between;
 }
 
+/*----------------------------------- */
 /* 7-Flex-Grow.html */
+/*----------------------------------- */
 
 .flex7-main-container{}
 
@@ -420,4 +436,42 @@ section{
 
 .flex7-fg-3{
     flex-grow: 3;
+}
+
+/*----------------------------------- */
+/* 8-Flex-Basis.html */
+/*----------------------------------- */
+
+.flex8-main-container{}
+.flex8-row{}
+.flex8-column{}
+
+.flex8-container {
+    max-width: 500px;
+    border: 1px solid;
+    display: flex;
+}
+.flex8-item {
+    background: coral;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.flex8-bauto{
+    flex-basis: auto;
+}
+
+.flex8-basis-0{
+    flex-basis: 0;
+}
+.flex8-fg-1{
+    flex-grow: 1;
+}
+
+.flex8-fg-2{
+    flex-grow: 2;
+}
+
+.flex8-w100{
+    flex-basis: 100px;
 }
