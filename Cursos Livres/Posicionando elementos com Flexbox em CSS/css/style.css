@@ -553,3 +553,54 @@ section{
 .flex10-largura{
     width: 200px;
 }
+
+/*----------------------------------- */
+/* 11-Flex-Flex.html */
+/*----------------------------------- */
+
+.flex11-main-container {}
+.flex11-container-row {}
+.flex11-container-column {}
+.flex11-container {
+    display: flex;
+    max-width: 350px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+.flex11-item {
+    flex:1;
+    background: brown;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.flex11-order-1{
+    order: 1;
+}
+.flex11-order-2{
+    order: 2;
+}
+.flex11-order-3{
+    order: 3;
+}
+.flex11-order-4{
+    order: 4;
+}
+
+.flex11-order-1x{
+    order: -1;
+}
+.flex11-order-2x{
+    order: -2;
+}
+.flex11-order-3x{
+    order: -3;
+}
+.flex11-order-4x{
+    order: -4;
+}
+
+.flex11-column{
+    flex-direction: column;
+}

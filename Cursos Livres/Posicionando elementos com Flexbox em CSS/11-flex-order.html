@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Order</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="flex11-main-container">
+    <h2>Row</h2>
+    <div class="flex11-container-row">
+        <h3>Order: default(0)</h3>
+        <div class="flex11-container">
+
+            <div class="flex11-item">1</div>
+            <div class="flex11-item">2</div>
+            <div class="flex11-item">3</div>
+            <div class="flex11-item">4</div>
+
+        </div>
+    
+        <h3>Order: Diferentes</h3>
+        <div class="flex11-container">
+
+            <div class="flex11-item flex11-order-4">2</div>
+            <div class="flex11-item flex11-order-4">3</div>
+            <div class="flex11-item flex11-order-2">4</div>
+            <div class="flex11-item flex11-order-3">56</div>
+            <div class="flex11-item flex11-order-1">78</div>
+
+        </div>
+
+        <h3>Order: Diferentes e negativos</h3>
+        <div class="flex11-container">
+
+            <div class="flex11-item flex11-order-4x">2</div>
+            <div class="flex11-item flex11-order-4x">3</div>
+            <div class="flex11-item flex11-order-2x">4</div>
+            <div class="flex11-item flex11-order-3x">56</div>
+            <div class="flex11-item flex11-order-1x">78</div>
+
+        </div>
+    </div>
+    <h2>Column</h2>
+    <div class="flex11-container-column">
+        
+        <h3>Order: default(0)</h3>
+        <div class="flex11-container flex11-column">
+
+            <div class="flex11-item">1</div>
+            <div class="flex11-item">2</div>
+            <div class="flex11-item">3</div>
+            <div class="flex11-item">4</div>
+
+        </div>
+    
+        <h3>Order: Diferentes</h3>
+        <div class="flex11-container flex11-column">
+
+            <div class="flex11-item flex11-order-4">2</div>
+            <div class="flex11-item flex11-order-4">3</div>
+            <div class="flex11-item flex11-order-2">4</div>
+            <div class="flex11-item flex11-order-3">56</div>
+            <div class="flex11-item flex11-order-1">78</div>
+
+        </div>
+
+        <h3>Order: Diferentes e negativos</h3>
+        <div class="flex11-container  flex11-column">
+
+            <div class="flex11-item flex11-order-4x">2</div>
+            <div class="flex11-item flex11-order-4x">3</div>
+            <div class="flex11-item flex11-order-2x">4</div>
+            <div class="flex11-item flex11-order-3x">56</div>
+            <div class="flex11-item flex11-order-1x">78</div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
