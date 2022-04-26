@@ -604,3 +604,66 @@ section{
 .flex11-column{
     flex-direction: column;
 }
+
+/*----------------------------------- */
+/* 12-Flex-Flex.html */
+/*----------------------------------- */
+
+.flex12-main-container {}
+
+.flex12-main-container p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.flex12-main-container h3{
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.flex12-container-row {}
+.flex12-container-column {}
+.flex12-container {
+    display: flex;
+    max-width: 350px;
+    border: 1px solid;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.flex12-container-center {
+    align-items: center;
+}
+.flex12-item {
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex12-align-self-center{
+    align-self: center;
+}
+
+.flex12-align-self-start{
+    align-self: flex-start;
+}
+
+.flex12-align-self-end{
+    align-self: flex-end;
+}
+
+.flex12-align-self-baseline{
+    align-self: baseline;
+}
+
+.flex12-align-self-stretch{
+    align-self: stretch;
+}
+
+.flex12-align-self-auto{
+    align-self: auto;
+}
+
+.flex12-column{
+    flex-direction: column;
+}

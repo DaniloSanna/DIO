@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Order</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="flex12-main-container">
+    <h2>Row</h2>
+    <div class="flex12-container-row">
+        <h3>Self-align: Auto</h3>
+        <div class="flex12-container">
+            <div class="flex12-item flex12-align-self-auto">AAA</div>
+            <div class="flex12-item flex12-align-self-auto">123</div>
+            <div class="flex12-item flex12-align-self-auto">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-auto">ITEM 4</div>
+        </div>
+        <p>Respeita o que vem o align items do divisor pai.</p>
+
+        <h3>Self-align: Auto, Container em Align-item: center</h3>
+        <div class="flex12-container flex12-container-center">
+            <div class="flex12-item flex12-align-self-auto">AAA</div>
+            <div class="flex12-item flex12-align-self-auto">123</div>
+            <div class="flex12-item flex12-align-self-auto">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-auto">ITEM 4</div>
+        </div>
+        <p>Respeita o que vem o align items do divisor pai.</p>
+    
+    
+        <h3>Self-align: variados</h3>
+        <div class="flex12-container">
+            <div class="flex12-item flex12-align-self-center">AAA</div>
+            <div class="flex12-item flex12-align-self-start">123</div>
+            <div class="flex12-item flex12-align-self-stretch">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-end">ITEM 4</div>
+        </div>
+        <p>center, start, stretch e end</p>
+    </div>
+
+    <h2>Column</h2>
+    <div class="flex12-container-column">
+        <h3>Self-align: Auto</h3>
+        <div class="flex12-container flex12-column">
+            <div class="flex12-item flex12-align-self-auto">AAA</div>
+            <div class="flex12-item flex12-align-self-auto">123</div>
+            <div class="flex12-item flex12-align-self-auto">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-auto">ITEM 4</div>
+        </div>
+        <p>Respeita o que vem o align items do divisor pai.</p>
+
+        <h3>Self-align: Auto, Container em Align-item: center</h3>
+        <div class="flex12-container flex12-container-center flex12-column">
+            <div class="flex12-item flex12-align-self-auto">AAA</div>
+            <div class="flex12-item flex12-align-self-auto">123</div>
+            <div class="flex12-item flex12-align-self-auto">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-auto">ITEM 4</div>
+        </div>
+        <p>Respeita o que vem o align items do divisor pai.</p>
+    
+    
+        <h3>Self-align: variados</h3>
+        <div class="flex12-container flex12-column">
+            <div class="flex12-item flex12-align-self-center">AAA</div>
+            <div class="flex12-item flex12-align-self-start">123</div>
+            <div class="flex12-item flex12-align-self-stretch">Lorem Ipsum is therefore always free from repetition</div>
+            <div class="flex12-item flex12-align-self-end">ITEM 4</div>
+        </div>
+        <p>center, start, stretch e end</p>
+    </div>
+</div>
+
+</body>
+</html>
