@@ -13,11 +13,7 @@
     width: 100%;
     margin: auto;
     display: flex;
-
-    /* border: 1px solid; */
-}
-.container div{
-    
+    margin-bottom: 20px;
 }
 
 header{
@@ -79,4 +75,75 @@ header .menu{
 
  .servicos div h2{
     margin-bottom: 20px
+ }
+
+
+ .planos{
+     flex-direction: column;
+ }
+
+ .list-planos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+ }
+ 
+ .plano{
+    min-width: 220px;
+    border: 5px solid var(--azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plano h2{
+    font-size: 32px;
+}
+.plano h3{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .plano h3::after{
+    content: "";
+    width: 200%;
+    height: 3px;
+    background: var(--azul);
+    margin-top: 20px;
+ }
+
+ .plano ul{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+ .plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: var(--azul);
+    margin-right: 5px;
+ }
+ .plano a{
+    margin: 30px;
+ }
+footer{
+    color: white;
+    padding: 10px;
+    background: var(--azul);
+
+}
+ .rodape{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
  }

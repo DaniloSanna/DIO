@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização</title>
+
+<style>
+    .home{
+        width: 500px;
+        height: 500px;
+        border: 1px solid;
+    }
+
+    .alinhamento{
+        width: 100%;
+        background: lightgray;
+        height: 200px;
+    }
+    
+    .conteudo{
+        background: gray;
+        width: 150px;
+        height: 150px;
+    }
+
+    .align-center{
+        align-items: center;
+        /* Alinhamento Horizontal */
+        /* Pois por padrão o Flex está como Row, centro de uma linha */
+        /* https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis */
+    }
+    
+    .content-center{
+        justify-content: center;
+        /* Alinhamento Vertical */
+    }
+
+    .flex{
+        display: flex;
+    }
+
+</style>
+
+</head>
+
+
+<body>
+        
+    <div class="home flex align-center">
+        <div class="alinhamento flex content-center">
+            <div class="conteudo flex align-center content-center">
+                <p>centralizado</p>
+            </div>
+        </div>
+    </div>
+    <!--
+        Flex tem que vir antes
+    -->
+
+</body>
+</html>
