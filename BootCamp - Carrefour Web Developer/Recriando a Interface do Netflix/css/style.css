@@ -5,8 +5,8 @@
 
 body{
     background: var(--varPreta);
-    font-family: Arial,'Times New Roman', Times, serif;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 *{
     margin: 0;
@@ -97,4 +97,9 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
